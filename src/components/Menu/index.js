@@ -1,7 +1,6 @@
 import React from 'react';
 
 import QRCode from 'react-native-qrcode';
-
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
@@ -22,9 +21,10 @@ export default function Menu({ translateY }) {
           value="https://rocketseat.com.br"
           size={80}
           fgColor="#fff"
-          bgColor="8B10AE"
+          bgColor="#8B10AE"
         />
       </Code>
+
       <Nav>
         <NavItem>
           <Icon name="help-outline" size={20} color="#FFF" />
@@ -45,7 +45,7 @@ export default function Menu({ translateY }) {
       </Nav>
 
       <SignOutButton onPress={() => {}}>
-        <SignOutButtonText>SAIR DO APP</SignOutButtonText>
+        <SignOutButtonText>Sair do App</SignOutButtonText>
       </SignOutButton>
     </Container>
   );
